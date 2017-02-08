@@ -41,7 +41,7 @@ $('.summernote').summernote({
             action:'both', // both|button|paste 'button' only cleans via toolbar button, 'paste' only clean when pasting content, both does both options.
             newline:'<br>', // Summernote's default is to use '<p><br></p>'
             notStyle:'position:absolute;top:0;left:0;right:0', // Position of Notification
-            icon:'<i class="note-icon">[Your Button]</i>'
+            icon:'<i class="note-icon">[Your Button]</i>',
             keepHtml: false, //Remove all Html formats
             keepClasses: false, //Remove Classes
             badTags: ['style','script','applet','embed','noframes','noscript', 'html'], //Remove full tags with contents
